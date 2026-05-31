@@ -1,0 +1,11 @@
+{
+  "name": "release-checklist",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:api": "cd backend && npm run dev",
+    "dev:ui": "cd frontend && npm run dev",
+    "migrate": "cd backend && npm run migrate",
+    "test": "cd backend && npm test"
+  }
+}
